@@ -13,7 +13,7 @@ document.getElementById("regForm").addEventListener("submit", function(e) {
     };
 
     // Replace with your Google Script URL
-    fetch("YOUR_GOOGLE_SCRIPT_URL", {
+    fetch("https://script.google.com/macros/s/AKfycbwOH4Iafl0tPFtXBMWDp5jQxvzA65Ds_GRkK-b7_XfBv5yaFX2vKfyVZJTLdy6a34_N9w/exec", {
         method: "POST",
         mode: "no-cors",
         body: JSON.stringify(data)
