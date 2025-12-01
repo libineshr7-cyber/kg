@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tournament Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Tournament Registration</h1>
+
+    <h3>Registration Fee: ₹20</h3>
+    <p><strong>Pay to GPay Number:</strong> 9514159632</p>
+
+    <button id="paidBtn">I Have Paid</button>
+
+    <!-- Registration Form -->
+    <div id="form-section">
+        <form id="regForm">
+            <label for="name">Player Name</label>
+            <input type="text" id="name" required>
+
+            <label for="pid">Player ID</label>
+            <input type="text" id="pid" required>
+
+            <button type="submit">Submit Registration</button>
+        </form>
+    </div>
+
+    <div class="success" id="successMsg">
+        Registration submitted successfully! 🎉
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
